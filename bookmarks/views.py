@@ -8,6 +8,7 @@ def index(request):
         form = BookmarkForm(request.POST)
         if form.is_valid():
             form.save()
+
     context = {'bookmarks': Bookmark.objects.all(),
                'form': BookmarkForm()}
     return render(request, 'bookmarks/index.html', context)
