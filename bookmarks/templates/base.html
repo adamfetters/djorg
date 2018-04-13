@@ -1,0 +1,30 @@
+{% load static %} {% load bootstrap4 %}
+
+<!DOCTYPE html>
+
+<head>
+  <title>{% block title %}Djorg{% endblock %}</title>
+  {% bootstrap_css %} {% bootstrap_javascript jquery='full' %}
+  <link href="{% static 'bookmarks/theme.css' %}" rel="stylesheet ">
+</head>
+
+<body class='container '>
+  <div class='navbar navbar-expand-lg navbar-light bg-light'>
+    {% block menu %}
+    <ul class='navbar-nav mr-auto'>
+      <li class='nav-item active'>
+        <a class='nav-link' href='/'>Home</a>
+      </li>
+      <li class='nav-item active'>
+        <a class='nav-link' href='/bookmarks/ '>Bookmarks</a>
+      </li>
+    </ul>
+    {% endblock %}
+  </div>
+  <div id='content '>
+    {% block content %}
+    <h1>Welcome to Djorg!</h1>{% endblock %}
+  </div>
+</body>
+
+</html>
