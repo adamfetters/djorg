@@ -1,10 +1,12 @@
 {% extends "base.html" %} {% load bootstrap4 %} {% block title %}Djorg - Bookmarks{% endblock %} {% block content %}
+
+
 <h1>Bookmarks</h1>
 {% if bookmarks %}
-<ol>
+<ol class='list-group'>
   {% for bookmark in bookmarks %}
-  <li>
-    <a href="{{ bookmark.url }}">{{ bookmark.name }}</a>
+  <li class='list-group-item'>
+    <a href="{{ bookmark.url }}" target='_blank'>{{ bookmark.name }} - {{ bookmark.notes }} </a>
   </li>
   {% endfor %}
 </ol>
