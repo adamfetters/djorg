@@ -25,6 +25,7 @@ router.register(r'notes', NoteViewSet)
 
 
 urlpatterns = [
+    path('accounts/', include('allauth.urls')),
     path('', TemplateView.as_view(template_name='base.html')),
     path('bookmarks/', include('bookmarks.urls')),
     path('admin/', admin.site.urls),

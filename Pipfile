@@ -15,10 +15,9 @@ django-heroku = "*"
 djangorestframework = "*"
 graphene-django = "*"
 django-cors-headers = "*"
-
+django-allauth = "*"
 [dev-packages]
 pylint = "*"
 "autopep8" = "*"
-
 [requires]
 python_version = "3.6"
