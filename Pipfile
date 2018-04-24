@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
+Django = "*"
 "django-bootstrap4" = "*"
 gunicorn = "*"
 "psycopg2-binary" = "*"
@@ -16,8 +16,12 @@ djangorestframework = "*"
 graphene-django = "*"
 django-cors-headers = "*"
 django-allauth = "*"
+asgi_redis = "*"
+djoser = "*"
+
 [dev-packages]
 pylint = "*"
 "autopep8" = "*"
+
 [requires]
 python_version = "3.6"

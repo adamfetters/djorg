@@ -1,15 +1,7 @@
 {
     "_meta": {
         "hash": {
-<<<<<<< HEAD
-<<<<<<< HEAD
-            "sha256": "781bdf5dad566a0275d50e520792f603b05c4faa85115ef4f0b94b6fff688187"
-=======
-            "sha256": "4d28af659b5dbbc20aeda528e817382f3b67934337e22d99f31bc166649f670b"
->>>>>>> 67f59858f61e388f88b7aebf9d600bafcf9efdd9
-=======
-            "sha256": "da515f6f55402c014cfcd28dfe24b9d6b43f121041eb796c743fc17925b361dc"
->>>>>>> parent of b81fe83... Added front end in react / Displayed notes from backend to front
+            "sha256": "9ff0d7a408fdcf29c7604830900e5b77259d10b05a268c5dc7de6c4f7bd607c0"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -30,6 +22,21 @@
                 "sha256:f7052eb342bf2000c6264a253acedb362513bf9270800be2bc8e3e229fe08b5a"
             ],
             "version": "==3.0.0"
+        },
+        "asgi-redis": {
+            "hashes": [
+                "sha256:ad724d382617b34c2cae08a8c43eb9999f7e695c11e9c534d28b7db0042b898e",
+                "sha256:f1f7a86439d764a6cd6c11d165a500d7287d5447ac8eb4c7b2483456cf3cb383"
+            ],
+            "index": "pypi",
+            "version": "==1.4.3"
+        },
+        "asgiref": {
+            "hashes": [
+                "sha256:8b46c3d6e2ad354d9da3cfb9873f9bd46fe1b768fbc11065275ba5430a46700c",
+                "sha256:d69847e3164957f4e6da51d2f1192b920c6c7d626bd3fc55f47aa1295702a0ed"
+            ],
+            "version": "==1.1.2"
         },
         "certifi": {
             "hashes": [
@@ -82,6 +89,14 @@
             "index": "pypi",
             "version": "==0.0.6"
         },
+        "django-cors-headers": {
+            "hashes": [
+                "sha256:0e9532628b3aa8806442d4d0b15e56112e6cfbef3735e13401935c98b842a2b4",
+                "sha256:c7ec4816ec49416517b84f317499d1519db62125471922ab78d670474ed9b987"
+            ],
+            "index": "pypi",
+            "version": "==2.2.0"
+        },
         "django-heroku": {
             "hashes": [
                 "sha256:2bc690aab89eedbe01311752320a9a12e7548e3b0ed102681acc5736a41a4762",
@@ -90,6 +105,13 @@
             "index": "pypi",
             "version": "==0.3.1"
         },
+        "django-templated-mail": {
+            "hashes": [
+                "sha256:8db807effebb42a532622e2d142dfd453dafcd0d7794c4c3332acb90656315f9",
+                "sha256:f7127e1e31d7cad4e6c4b4801d25814d4b8782627ead76f4a75b3b7650687556"
+            ],
+            "version": "==1.1.1"
+        },
         "djangorestframework": {
             "hashes": [
                 "sha256:b6714c3e4b0f8d524f193c91ecf5f5450092c2145439ac2769711f7eba89a9d9",
@@ -97,6 +119,14 @@
             ],
             "index": "pypi",
             "version": "==3.8.2"
+        },
+        "djoser": {
+            "hashes": [
+                "sha256:5348b153d887dfea86e0ecafce1c63588705e8e74d907ba5b1d54ab94bf85ab1",
+                "sha256:9b5cfccfbe3a515e3c7a76dc0179d1b5dc9d153543def6409405bab2a660b06f"
+            ],
+            "index": "pypi",
+            "version": "==1.1.5"
         },
         "graphene": {
             "hashes": [
@@ -148,6 +178,12 @@
                 "sha256:bbbae5fb4a7abfe71d4688fd64bff70b91bbd74ef6a99d964bab18f7fdf286dd"
             ],
             "version": "==0.1.12"
+        },
+        "msgpack-python": {
+            "hashes": [
+                "sha256:378cc8a6d3545b532dfd149da715abae4fda2a3adb6d74e525d0d5e51f46909b"
+            ],
+            "version": "==0.5.6"
         },
         "oauthlib": {
             "hashes": [
@@ -248,6 +284,13 @@
                 "sha256:c06425302f2cf668f1bba7a0a03f3c1d34d4ebeef2c72003da308b3947c7f749"
             ],
             "version": "==2018.4"
+        },
+        "redis": {
+            "hashes": [
+                "sha256:8a1900a9f2a0a44ecf6e8b5eb3e967a9909dfed219ad66df094f27f7d6f330fb",
+                "sha256:a22ca993cea2962dbb588f9f30d0015ac4afcc45bee27d3978c0dbe9e97c6c0f"
+            ],
+            "version": "==2.10.6"
         },
         "requests": {
             "hashes": [

@@ -31,4 +31,6 @@ urlpatterns = [
     path('graphql/', GraphQLView.as_view(graphiql=True)),
     path('api/', include(router.urls)),
     path('', TemplateView.as_view(template_name='base.html')),
+    path('auth/', include('djoser.urls')),
+    path('auth/', include('djoser.urls.authtoken')),
 ]
