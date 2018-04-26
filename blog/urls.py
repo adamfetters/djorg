@@ -20,3 +20,5 @@ urlpatterns - [
     url(r'^post/(?P<pk>\d+)/publish/$', views.post_publish, name='post_publish'),
 
 ]
+
+## Test comment
