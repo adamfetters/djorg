@@ -28,9 +28,7 @@ router.register(r'notes', NoteViewSet)
 urlpatterns = [
     path('accounts/', include('allauth.urls')),
     path('accounts/login/', views.login, name='login'),
-    path('accounts/logout/', views.logout,
-         name='logout', kwargs={'next_page': '/'}),
-    path('blog/', include('blog.urls')),
+    path('accounts/logout/', views.logout, name='logout'),
     path('bookmarks/', include('bookmarks.urls')),
     path('admin/', admin.site.urls),
     path('graphql/', GraphQLView.as_view(graphiql=True)),
