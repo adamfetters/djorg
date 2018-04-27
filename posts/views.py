@@ -5,4 +5,6 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse('Hello From Posts')
+    # return HttpResponse('Hello From Posts')
+
+    return render(request, 'posts/index.html')
