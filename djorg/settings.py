@@ -34,7 +34,6 @@ LOGIN_REDIRECT_URL = '/'
 # Application definition
 
 INSTALLED_APPS = [
-    'posts',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.sites',
@@ -56,6 +55,7 @@ INSTALLED_APPS = [
     # Our apps
     'bookmarks',
     'notes',
+    'posts'
    
 ]
 
